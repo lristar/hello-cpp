@@ -1,3 +1,3 @@
-/home/lzy/cpp/hello_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lzy/cpp/hello_cpp/cmake-build-debug/CMakeFiles/hello_cpp.dir
-/home/lzy/cpp/hello_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/software_data/cpp/hello-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/software_data/cpp/hello-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/software_data/cpp/hello-cpp/cmake-build-debug/CMakeFiles/hello_cpp.dir
