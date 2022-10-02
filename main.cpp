@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cstring>
 using namespace std;
 // 重温cpp
 
@@ -63,6 +64,26 @@ void judge(int i ){
 // 三个值及以上 std::tuple<bool, int,int>
 // 函数参数设置默认值 int add(int a,int b=20)  =20设置默认值为20
 
+int test_str(){
+    char str1[10] = "start";
+    char str2[20] = "study";
+    char str3[10] = "c++";
+    char str4[10];
+    printf("str1 %s\n",str1);
+    strcpy(str4,str1);  // 把str1复制到str4上
+    printf("str4 %s\n",str4);
+    strcat(str2,str1);  // 把str1拼接到str2后面
+    printf("str2 %s\n",str2);
+
+    string s1 = "start";
+    string s2 = "study";
+    string s3 = "c++";
+    string s4 ;
+    s4 = s1;
+    cout << "s4 is "<<s4 <<endl;
+    cout << "strcat is " << s1+s2+s3 << endl;
+    return 1;
+}
 
 // 多行注释
 /*
@@ -79,5 +100,6 @@ int main() {
     cout << condition(3,2) << "\n";
     test_while();
     judge(10);
+    test_str();
     return 0;
 }
