@@ -3,7 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/basic/day1/cin_cout.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/basic/day1/ctime.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/basic/day1/structTest.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/basic/day1/test1.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/basic/day1/testnum.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/basic/objectTest/Box.cpp" charset="GBK" />
   </component>
 </project>
