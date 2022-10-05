@@ -5,14 +5,6 @@
 #include <exception>
 
 using namespace std;
-double division(int a, int b)
-{
-  if (b == 0)
-  {
-    throw "Division by zero condition!";
-  }
-  return (a / b);
-}
 
 struct MyException : public exception
 {
@@ -30,13 +22,20 @@ struct MyOtherError : public exception
     return "C++ other Exception";
   }
 };
-
+double division(int a, int b)
+{
+  if (b == 0)
+  {
+    throw MyOtherError();
+  }
+  return (a / b);
+}
 
 int main()
 {
   try
   {
-    throw MyException();
+    throw division(20, 0);
   }
   catch (MyException &e)
   {
