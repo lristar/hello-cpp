@@ -1,6 +1,7 @@
 // g++ throw_error.cpp -I D:/environment/vcpkg/vcpkg/installed/x64-windows/include
 // #define FMT_HEADER_ONLY
 // #include <fmt/core.h>
+// test
 #include <iostream>
 #include <exception>
 
